@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { Router } from "@reach/router";
-import Navbar from "./Navbar";
+import { Router, Link } from "@reach/router";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
 import ThemeContext from "./ThemeContext";
@@ -11,7 +10,10 @@ const App = () => {
   return (
     <ThemeContext.Provider value={theme}>
       <div>
-        <Navbar />
+        <header>
+          <Link to="/">Adopt Me!</Link>
+        </header>
+        ;
         <Router>
           <SearchParams path="/" />
           <Details path="/details/:id" />
