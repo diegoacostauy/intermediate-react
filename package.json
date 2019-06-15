@@ -6,6 +6,8 @@
   "dependencies": {
     "@frontendmasters/pet": "^1.0.3",
     "@reach/router": "^1.2.1",
+    "loadsh": "0.0.4",
+    "moment": "^2.24.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
