@@ -19,7 +19,6 @@ const Navbar = () => {
       css={css`
         background-color: ${colors.primary};
         padding: ${padding}px;
-        color: #fff;
       `}
     >
       <Link to="/">Adpot Me!</Link>
